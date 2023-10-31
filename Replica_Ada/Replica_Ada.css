@@ -1,0 +1,74 @@
+<style>
+    .elemento1 {
+        width: 500px;
+        height: 400px;
+        background-color: gray;
+        border: 1px solid black;
+        display: flex;
+        align-items: center;
+        flex-direction: row-reverse;
+
+
+    }
+
+    .elemento2 {
+        width: 250px;
+        height: 390px;
+        background-color: white;
+        border: 1px solid black;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        margin-right: auto;
+        margin-left: 5px;
+        align-items: ;
+
+    }
+
+    .elemento3 {
+        display: flex;
+        width: 210px;
+        height: 50px;
+        background-color: gray;
+        border: 1px solid black;
+        margin: 5px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .elementoImagem {
+        display: flex;
+        width: 210px;
+        height: 300px;
+        border: 1px solid black;
+        margin: 5px;
+        background-image: url('ada-lovelace-2.jpg');
+        background-size: 100% 100%;
+
+    }
+
+    .elementoTexto {
+        display: flex;
+        width: 210px;
+        height: 50px;
+        margin-top: 10px;
+        margin-bottom: auto;
+        font-size: small;
+
+
+
+    }
+
+
+
+
+    .container {
+        /* Abre espaço para poder usar os Atributos Flex */
+        display: flex;
+        /* Muda a orientação em que os itens ficam grudados, como por exemplo, esta altera para que fiquem orientados em coluna */
+        flex-direction: column;
+        /* Muda onde os items vão ficar grudados, como por exemplo nesta, onde os itens ficam alinhados do lado direito da página, quando pela posição original deveriam estar alinhados na esquerda */
+
+
+    }
+</style>
