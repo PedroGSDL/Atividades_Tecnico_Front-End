@@ -1,0 +1,335 @@
+<style>
+    /* Header da Página */
+    .elementoHeader {
+        display: flex;
+        width: auto;
+        height: 60px;
+        background-color: #9D8080;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .textoHeader {
+        margin-right: 1px;
+        display: flex;
+        color: #453E2D;
+    }
+
+    .logoHeader {
+        background-image: url("Logo_Header.png");
+        background-size: contain;
+        background-repeat: no-repeat;
+        width: 100px;
+        height: 30px;
+    }
+
+    /* Segundo Bloco de Conteúdo */
+    .elementoBloco2 {
+        display: flex;
+        flex-direction: column;
+        width: auto;
+        height: 290px;
+        background-image: url("Background_Bloco2.jpg");
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .tituloBloco2 {
+        font-size: 50px;
+        color: white;
+        margin-bottom: 20px;
+    }
+
+    .textBloco2 {
+        font-size: 20px;
+        color: white;
+        margin-bottom: 20px;
+    }
+
+    .saibaMaisBloco2 {
+        display: flex;
+        width: 100px;
+        height: 35px;
+        background-color: white;
+        font-size: 12px;
+        color: black;
+        margin-bottom: 20px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    /* Terceiro Bloco de Conteúdo */
+    .elementoBloco3 {
+        display: flex;
+        width: auto;
+        height: 192px;
+        background-color: white;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .tituloBloco3 {
+        font-size: 30px;
+        color: black;
+        margin-bottom: 30px;
+    }
+
+    .textBloco3 {
+        font-size: 10px;
+        color: black;
+    }
+
+    .linha {
+        width: 100px;
+        height: 0;
+        border: 1px solid black;
+        margin-top: 30px;
+    }
+
+    /* Quarto Bloco de Conteúdo */
+    .elementoBloco4 {
+        display: grid;
+
+        grid-template-columns: 0px 50%;
+        column-gap: 600px;
+        width: auto;
+        height: 500px;
+        background-color: #C3C63B;
+        border: 1px solid black;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .imagemBloco4-1 {
+        width: 500px;
+        height: 250px;
+        background-color: red;
+        border: 1px solid black;
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        background-image: url("itacare-01.jpg");
+    }
+
+    .imagemBloco4-2 {
+        width: 600px;
+        height: 250px;
+        background-color: red;
+        border: 1px solid black;
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        background-image: url("itacare-02.jpg");
+    }
+
+    .imagemBloco4-3 {
+        width: 500px;
+        height: 200px;
+        background-color: red;
+        border: 1px solid black;
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        background-image: url("itacare-03.jpg");
+    }
+
+    .imagemBloco4-4 {
+        width: 300px;
+        height: 200px;
+        background-color: red;
+        border: 1px solid black;
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        background-image: url("itacare-04.jpg");
+
+    }
+
+    /* Quinto Bloco de Conteúdo */
+    .elementoBloco5 {
+        display: flex;
+        width: auto;
+        height: 300px;
+        background-color: #191C03;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .tituloBloco5 {
+        font-size: 30px;
+        color: white;
+        margin-bottom: 30px;
+    }
+
+    .textBloco5 {
+        font-size: 10px;
+        color: white;
+    }
+
+    .linhaBloco5 {
+        width: 100px;
+        height: 0;
+        border: 1px solid white;
+        margin-top: 30px;
+    }
+
+    .elementoBloco6 {
+        display: flex;
+        width: auto;
+        height: 200px;
+        background-color: #191C03;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: row;
+    }
+
+    .item1Bloco6 {
+        display: flex;
+        font-size: small;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .item2Bloco6 {
+        display: flex;
+        font-size: small;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .item3Bloco6 {
+        display: flex;
+        font-size: small;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .iconeFlecha {
+        width: 100px;
+        height: 100px;
+        background-color: red;
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        background-image: url("iconeFlecha.png");
+
+
+    }
+
+    .iconeCasa {
+        width: 100px;
+        height: 100px;
+        background-color: red;
+
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        background-image: url("iconeCasa.png");
+    }
+
+    .iconePresente {
+        width: 100px;
+        height: 100px;
+        background-color: red;
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        background-image: url("iconePresente.png");
+    }
+
+    .tituloBloco6 {
+        color: #C3C63B;
+        font-size: medium;
+    }
+
+    .elementoBloco7 {
+        display: flex;
+        width: auto;
+        height: 192px;
+        background-color: white;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .tituloBloco7 {
+        font-size: 30px;
+        color: black;
+        margin-bottom: 30px;
+        margin-top: 100px;
+    }
+
+    .textBloco7 {
+        font-size: 10px;
+        color: black;
+    }
+
+    .linhaBloco7 {
+        width: 100px;
+        height: 0;
+        border: 1px solid#C3C63B;
+        margin-top: 50px;
+    }
+
+    .lacunaBloco7 {
+        width: 400px;
+        height: 25px;
+        background-color: white;
+        border: 1px solid#d7f300;
+        margin-top: 50px;
+    }
+
+    .item1Bloco7 {
+        display: flex;
+        font-size: small;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .item2Bloco7 {
+        display: flex;
+        font-size: small;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        background-color: #d7f300;
+        width: 100px;
+        height: 35px;
+        margin-top: 50px;
+        margin-left: 50px;
+        color: aliceblue;
+    }
+
+    .elementoBloco8 {
+        display: flex;
+        width: auto;
+        height: 192px;
+        background-color: #3a4101;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin-top: 100px;
+    }
+
+    .iconesBloco8 {
+        width: 200px;
+        height: 100px;
+        background-color: red;
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        background-image: url("iconeUltimoBloco.png");
+
+
+    }
+
+    .container {
+        /* Abre espaço para poder usar os Atributos Flex */
+        display: flex;
+        /* Muda a orientação em que os itens ficam grudados, como por exemplo, esta altera para que fiquem orientados em coluna */
+        flex-direction: column;
+        /* Muda onde os items vão ficar grudados, como por exemplo nesta, onde os itens ficam alinhados do lado direito da página, quando pela posição original deveriam estar alinhados na esquerda */
+        flex-wrap: wrap-reverse;
+
+    }
+</style>
