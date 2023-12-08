@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Template de Blocos</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+        body {
+            margin: 0;
+            background-image: url("favicon-32x32.png");
+            height: 500px;
+        }
+
+        .elemento1 {
+            width: 1420px;
+            height: 510px;
+            background-color: hsl(212, 45%, 89%);
+            display: flex;
+            border: 100px;
+            margin: 50px;
+           
+        }
+
+        .elemento2 {
+            display: flex;
+            flex-direction: column-reverse;
+            width: 240px;
+            height: 350px;
+            background-color: hsl(0, 0%, 100%);
+            margin-left: 600px;
+            margin-top: 20px;
+            border-radius: 5%;
+            align-items: center;
+            justify-content: flex-start;
+        }
+
+        .elementoImagem {
+            width: 200px;
+            height: 200px;
+            background-image: url('image-qr-code.png');
+            background-size: cover;
+            border-radius: 5%;
+        }
+
+        .elementoTexto2,
+        .elementoTexto {
+            text-align: center;
+            font-size: 15px;
+            width: 70%;
+            padding: 10px;
+            font-family: 'Outfit', sans-serif;
+        }
+
+        .elementoTexto2 {
+            color: gray;
+            font-size: small;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="elemento1">
+        <div class="elemento2">
+            <div class="elementoTexto2">
+                Scan the QR code to visit Frontend
+                Mentor and take your coding skills to the next level
+            </div>
+            <div class="elementoTexto">
+                Improve your front-end skills by building projects
+            </div>
+            <div class="elementoImagem"></div>
+        </div>
+    </div>
+
+</body>
+
+</html>
